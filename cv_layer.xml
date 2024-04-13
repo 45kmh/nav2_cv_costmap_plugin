@@ -1,0 +1,5 @@
+<library path="nav2_cv_costmap_plugin_core">
+  <class name="nav2_cv_costmap_plugin/CvLayer" type="nav2_cv_costmap_plugin::CvLayer" base_class_type="nav2_costmap_2d::Layer">
+    <description>This is a plugin which puts computer vision dependent costs to costmap</description>
+  </class>
+</library>
