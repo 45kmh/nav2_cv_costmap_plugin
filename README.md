@@ -1,5 +1,5 @@
 # nav2_cv_costmap_plugin
-Nav2 plugin that subscribes to object detection results, marks forbidden zones, and recalculates the endpoint as needed. This software is provided as an example and is not free of bugs. Therefore, it should not be used without undergoing debugging and testing phases. Additionally, it is not maintained.
+Nav2 custom costmap plugin that subscribes to object detection results, marks forbidden zones, and recalculates the endpoint as needed. This software is provided as an example and is not free of bugs. Therefore, it should not be used without undergoing debugging and testing phases. Additionally, it is not maintained.
 
 ## Dependencies
 - ROS2 Humble
