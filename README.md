@@ -1,5 +1,5 @@
 # nav2_cv_costmap_plugin
-A plugin that subscribes to object detection results, marks forbidden zones, and recalculates the endpoint as needed.
+A plugin that subscribes to object detection results, marks forbidden zones, and recalculates the endpoint as needed. This software is provided as an example and is not free of bugs. Therefore, it should not be used without undergoing debugging and testing phases. Additionally, it is not maintained.
 
 ## Dependencies
 - ROS2 Humble
@@ -26,4 +26,8 @@ git clone https://github.com/45kmh/nav2_cv_costmap_plugin.git
         camera_max_detection_range: 4.0
         # Maximum value is 1 equal to the lethal cost
         forbidden_zone_cost: 0.75
-  
+## "Only left" traffic sign behavior example
+![New Project](https://github.com/45kmh/nav2_cv_costmap_plugin/assets/151655734/f492b22c-7c9e-4bd8-a9bd-6db21626e54b)
+## Traffic light behavior example
+![2](https://github.com/45kmh/nav2_cv_costmap_plugin/assets/151655734/cd42e382-0d03-4495-841e-e3f7fa2d6f1e)
+
