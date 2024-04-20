@@ -7,7 +7,7 @@ Nav2 custom costmap plugin that subscribes to object detection results, marks fo
 ## Install
 - Clone the package:
 ```bashrc
-git clone https://github.com/45kmh/nav2_cv_costmap_plugin.git
+git clone https://github.com/maladzenkau/nav2_cv_costmap_plugin.git
 ```
 # Adjust  `parameters.yaml`:
     global_costmap:
